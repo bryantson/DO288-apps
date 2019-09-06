@@ -16,8 +16,12 @@ cp -Rf /tmp/src/*.html ./
 DATE=`date "+%b %d, %Y @ %H:%M %p"`
 
 echo "---> Creating info page"
-echo "Page built on $DATE" >> ./info.html
-echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
+echo "Page built on $DATE by Bryant Son" >> ./info.html
+echo "Proudly served by Red Hat Server version $HTTPD_VERSION" >> ./info.html
+
+echo "---> Creating new personal page"
+echo "Testing for what...." >> ./personal.html
+echo "Hola, Amigo, 2019!" >> ./personal.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
